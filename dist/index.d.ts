@@ -1,2 +1,2 @@
-declare type x = number;
-declare const a: x;
+import { jsonToYamlWithComments } from "./jsonToYamlWithComments";
+export default jsonToYamlWithComments;

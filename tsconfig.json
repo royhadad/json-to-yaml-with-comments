@@ -8,9 +8,7 @@
     "moduleResolution": "node",
     "target": "es2015",
     "lib": [
-      "es6",
-      "dom",
-      "ES2017.Object"
+      "ES2020"
     ],
     "declaration": true,
     "outDir": "./dist"
