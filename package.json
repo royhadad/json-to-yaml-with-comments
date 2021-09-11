@@ -1,0 +1,45 @@
+{
+  "name": "json-to-yaml-with-comments",
+  "version": "1.0.0",
+  "description": "A simple npm module to convert json files to yaml files, allowing the user to comment out some of the yaml content",
+  "main": "index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpile-only index.ts",
+    "build": "tsc",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/royhadad/json-to-yaml-with-comments.git"
+  },
+  "keywords": [
+    "json",
+    "yaml",
+    "comments",
+    "jsonToYaml",
+    "json-to-yaml",
+    "jsonToYamlWithComments",
+    "json-to-yaml-with-comments",
+    "yamlDump",
+    "yaml-dump",
+    "yamlDumpComments",
+    "yaml-dump-comments",
+    "yamlDumpWithComments",
+    "yaml-dump-with-comments"
+  ],
+  "author": "Roy Hadad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/royhadad/json-to-yaml-with-comments/issues"
+  },
+  "homepage": "https://github.com/royhadad/json-to-yaml-with-comments#readme",
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.3",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.3"
+  }
+}
